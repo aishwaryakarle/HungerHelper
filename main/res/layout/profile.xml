@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainpart"
+    android:layout_width="200dp"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0">
+
+
+    <!-- Profile details in side screen -->
+
+    <!-- Other profile details in side screen -->
+
+    <!-- Close button for side screen -->
+    <ImageView
+        android:id="@+id/profileImageSide"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/user" />
+
+    <TextView
+        android:id="@+id/Myname"
+        android:layout_width="165dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20dp"
+        android:text=" "
+        android:contentDescription="Open Side Profile"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/myemail"
+        android:layout_width="165dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="20dp"
+        android:text=" "
+        android:contentDescription="Open Side Profile"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/phoneTextView"
+        android:layout_width="165dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="20dp"
+        android:text=" "
+        android:contentDescription="Open Side Profile"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="165dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="20dp"
+        android:text=" "
+        android:contentDescription="Open Side Profile"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/donor"
+        android:onClick="onClick"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="330dp"
+        android:text="DONATE FOOD"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/receiver"
+        android:onClick="onClick"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="390dp"
+        android:text="GET FOOD"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="450dp"
+        android:text="LOGOUT"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/closeProfileButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/user_dash"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:contentDescription="Open Side Profile"/>
+
+</RelativeLayout>
